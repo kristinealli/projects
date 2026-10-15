@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Page metadata, fonts, and external stylesheet -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101d29" />
+  <meta name="description"
+    content="Kristine Johnson — software engineering, machine learning, and thoughtful systems design. Explore selected projects and connect." />
+  <title>Kristine Johnson — Engineering with intention</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+</head>
+
+<body>
+  <!-- Keyboard-accessible shortcut to the main content -->
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Site header and primary navigation -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="Kristine Johnson home">kj<span> / </span>portfolio</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#about">About</a>
+        <a class="contact-link" href="#connect">Let's connect ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Introduction and primary "call to action" -->
+    <div class="hero" id="top">
+      <div class="container">
+        <div class="eyebrow">
+          Software engineering, machine learning, and
+          human-centered design.
+        </div>
+        <h1>Curious mind.<br /><em>Intentional</em> code.</h1>
+        <p class="intro">
+          Hi, I'm Kristine. I build software and explore machine
+          learning with a problem solver's mindset and a
+          designer's perspective. I enjoy untangling complex
+          challenges, connecting ideas across disciplines, and
+          turning them into practical solutions. I'm just as
+          interested in the questions behind a solution as I am in
+          the code that brings it to life.
+        </p>
+        <div class="actions">
+          <a class="btn" href="#work">Explore projects
+            <span aria-hidden="true">↗</span></a><a class="btn secondary" href="https://github.com/kristinealli"
+            target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+        </div>
+        <div class="signal">
+          <i aria-hidden="true"></i> OPEN TO WHAT'S NEXT
+        </div>
+      </div>
+    </div>
+
+    <!-- Project cards and filters - generated from projects.json by projects.js -->
+    <section id="work" aria-labelledby="work-title">
+
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="index">01 / Selected work</span>
+            <h2 id="work-title">
+              Things I've built<span class="mint-text">.</span>
+            </h2>
+          </div>
+          <span class="aside" id="project-range"></span>
+        </div>
+
+
+        <div class="filterbar" role="group" aria-label="Filter projects" aria-busy="true"></div>
+        <div class="projects" id="projects" aria-busy="true"></div>
+      </div>
+    </section>
+
+    <!-- About/ Background Section -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <span class="index">02 / About me</span>
+          <h2 id="about-title">
+            A different path.<br />
+            A useful perspective.
+          </h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            My background spans
+            <strong>interior architecture, sustainable business,
+              innovation, and software engineering</strong>. I bring design thinking and years of real-world
+            problem-solving to technical work.
+          </p>
+          <p>
+            I'm studying
+            <strong>Computer Information Systems at Bay Mills
+              Community College</strong>, with a focus on building reliable, responsible
+            technology. I'm especially interested in backend
+            engineering, AI applications, and projects that
+            support communities and the environment.
+          </p>
+          <div class="value-row">
+            <span>Build with care</span><span>Keep learning</span><span>Consider impact</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact links and copyright footer -->
+<!-- Contact links and copyright footer -->
+<footer class="footer" id="connect">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <span class="index">03 / CONNECT</span>
+        <h2>
+          Let's build<br />
+          <span>something that matters.</span>
+        </h2>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/kristineallisonjohnson" target="_blank" rel="noopener noreferrer"
+          aria-label="Kristine Johnson on LinkedIn">
+          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          LinkedIn ↗
+        </a>
+
+        <a href="https://github.com/kristinealli" target="_blank" rel="noopener noreferrer"
+          aria-label="Kristine Johnson on GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          GitHub ↗
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>
+        © <span id="year">2026</span> Kristine Johnson
+      </span>
+      <span>
+        Designed with intention. Built with HTML, CSS & JavaScript.
+      </span>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Loads project data, renders work cards, and updates the copyright year -->
+  <script src="projects.js" defer></script>
+
+</body>
+
+</html>

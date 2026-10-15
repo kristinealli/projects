@@ -1,0 +1,132 @@
+{
+  "categories": [
+    { "id": "ml", "label": "AI & ML" },
+    { "id": "data", "label": "Data & applications" },
+    { "id": "web", "label": "Web" }
+  ],
+  "projects": [
+    {
+      "category": "ml",
+      "featured": true,
+      "image": "assets/synthetic_sight.jpg",
+      "imageAlt": "Synthetic Sight project icon",
+      "visualLabel": "SYNTHETIC MEDIA | AUTHENTICITY | DETECTION",
+      "meta": "Featured / AI4ALL Ignite",
+      "year": "2026",
+      "title": "Synthetic Sight | AI-Generated Face Detection & Media Literacy",
+      "paragraphs": [
+        [
+          "Developed an end-to-end deepfake detection application using a fine-tuned ResNet-50 model to distinguish authentic from AI-generated facial images. Achieved ",
+          { "strong": "99.69% accuracy" },
+          " on a 20,000-image held-out test set. Incorporated adjustable classification thresholds, error analysis, and CIE Lab L* auditing to explore model reliability, potential bias, and responsible AI deployment."
+        ],
+        [
+          "Presented at the ",
+          { "strong": "AI4ALL Student Symposium" },
+          " on September 24, 2026, where the project poster received the ",
+          { "strong": "Outstanding Visual Design Award" },
+          "."
+        ]
+      ],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "FastAPI",
+        "ResNet-50",
+        "Computer Vision",
+        "Model Evaluation",
+        "Transfer Learning",
+        "Supervised Learning"
+      ],
+      "links": [
+        {
+          "label": "Live Demo ↗",
+          "url": "https://kristinealli.github.io/SyntheticSight"
+        },
+        {
+          "label": "Source code ↗",
+          "url": "https://github.com/kristinealli/SyntheticSight"
+        },
+        {
+          "label": "Slide Deck ↗",
+          "url": "https://www.canva.com/design/DAHUFqSL4NE/bpcq2C4vWThJU-p8zJzRtw/view?utlId=h2bd8f1bebd"
+        },
+        {
+          "label": "Poster ↗",
+          "url": "https://drive.google.com/file/d/15tmpMrQSDmxx3cPnUP5oamTD0l1-GXbC/view"
+        }
+      ]
+    },
+    {
+      "category": "data",
+      "featured": false,
+      "image": "assets/mtr.png",
+      "imageAlt": "NAGPRA project icon",
+      "visualLabel": "REPATRIATION / INFORMATION SYSTEMS / SOVEREIGNTY",
+      "meta": "Data systems",
+      "year": "2025–2026",
+      "title": "NAGPRA Repatriation Database & Application",
+      "paragraphs": [
+        [
+          "Designed and developed a relational database and application to support the complex information management involved in Native American repatriation. Built a ",
+          { "strong": "12-table MySQL database" },
+          " with 19 foreign-key relationships and 8 workflow views, alongside a Python/Flet interface for searching records, managing information, and generating reports. Grounded in research into NAGPRA requirements, Tribal sovereignty, and the importance of returning ancestors and cultural belongings to their communities."
+        ]
+      ],
+      "tags": [
+        "MySQL",
+        "Python",
+        "Flet",
+        "Schema Design",
+        "Entity-Relationship Modeling"
+      ],
+      "links": [
+        {
+          "label": "View project ↗",
+          "url": "https://kristinealli.github.io/nagpra-repatriation-db"
+        },
+        {
+          "label": "Source code ↗",
+          "url": "https://github.com/kristinealli/nagpra-repatriation-db"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "featured": false,
+      "image": "assets/nipslip.png",
+      "imageAlt": "Nip Slip Catnip project icon",
+      "visualLabel": "FRONTEND DEVELOPMENT / RESPONSIVE DESIGN / USER EXPERIENCE",
+      "meta": "Web design",
+      "year": "2025",
+      "title": "Nip Slip Catnip",
+      "paragraphs": [
+        [
+          "Designed and developed a responsive, multi-page website for a small catnip business, building upon its existing brand identity to create a cohesive digital experience. Combined visual design, intuitive navigation, and frontend development using ",
+          { "strong": "HTML, CSS, and JavaScript" },
+          " to bring the brand's playful personality to life online."
+        ]
+      ],
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Responsive Design",
+        "CSS Grid / Flexbox",
+        "UI/UX Design",
+        "Adobe Illustrator",
+        "Figma"
+      ],
+      "links": [
+        {
+          "label": "View live site ↗",
+          "url": "https://kristinealli.github.io/nipslip-catnip/"
+        },
+        {
+          "label": "Source code ↗",
+          "url": "https://github.com/kristinealli/nipslip-catnip"
+        }
+      ]
+    }
+  ]
+}
