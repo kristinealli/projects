@@ -1,12 +1,12 @@
 :root {
     color-scheme: dark;
-    --bg: #aab8bd;
+    --bg: #859398;
     --surface: #142532;
     --surface2: #e9ad92;
     --cream: #f0eadc;
     --muted: #0d2a2f;
     --line: #3b5660;
-    --mint: #13ebc0;
+    --mint: #81D8D0;
     --coral: #ed3f24;
     --yellow: #f0d593;
     --mono: 'DM Mono', monospace;
@@ -169,7 +169,8 @@ button {
     color: var(--coral);
     display: flex;
     align-items: center;
-    gap: 12px
+    gap: 12px;
+    font-style: strong;
 }
 
 .eyebrow:before {
@@ -421,8 +422,8 @@ section {
     position: absolute;
     left: 24px;
     bottom: 10px;
-    color: var(--mint);
-    background-color: black;
+    background-color: var(--surface);
+    color: var(--cream);
     font: .73rem var(--mono);
     letter-spacing: .12em;
     text-transform: uppercase
@@ -661,6 +662,10 @@ h3 {
 
     .footer-bottom {
         margin-top: 52px
+    }
+
+    .visual-label {
+        display: none;
     }
 }
 
