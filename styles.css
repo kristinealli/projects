@@ -367,7 +367,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #213c43
 }
 
 .project.featured .visual {
@@ -684,3 +683,31 @@ h3 {
 .mint-text {
     color: var(--mint)
 }
+/* Portfolio palette: sea-glass. Overrides follow the original styles. */
+:root {
+  color-scheme: light;
+  --bg: #DCEBE8; --surface: #172F38; --surface2: #D0E4DF;
+  --cream: #F6F3EC; --muted: #47636A; --line: #B1CCC7;
+  --mint: #81D8D0; --coral: #A27D53; --yellow: #C7A66B;
+}
+body { color: #17303B; }
+.topbar { background: #142532F2; border-bottom-color: #45616B; }
+.topbar, .topbar a { color: #F6F3EC; }
+.hero:before { background-image: radial-gradient(#98BEB9 1px, transparent 1px); opacity: .42; }
+.hero:after { border-color: #81D8D04D; box-shadow: 0 0 0 75px #81D8D010, 0 0 0 150px #81D8D00C; }
+.intro { color: #29444B; }
+h1 { color: #17303B; }
+h1 em { color: #168D88; }
+.btn, .filter[aria-pressed=true], .filter:hover { color: #142532; }
+.btn:hover { background: #A6E8E1; }
+.btn.secondary:hover { background: #294650; color: #F6F3EC; }
+.project { border-color: #45616B; color: #F6F3EC; }
+.project h3 { color: #F6F3EC; }
+.project-meta time { color: #B4C9CA; }
+.filter { color: #17303B; }
+.about { background: #142532; color: #F6F3EC; border-color: #45616B; }
+.about h2, .about .index { color: #F6F3EC; }
+.about .value-row span { border-left-color: #81D8D0; }
+.footer { color: #17303B; }
+.footer-bottom { color: #47636A; }
+::selection { color: #142532; }
