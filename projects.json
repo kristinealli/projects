@@ -8,7 +8,7 @@
     {
       "category": "ml",
       "featured": true,
-      "image": "assets/synthetic_sight.jpg",
+      "image": "assets/synthetic_sight_bw.jpg",
       "imageAlt": "Synthetic Sight project icon",
       "visualLabel": "SYNTHETIC MEDIA | AUTHENTICITY | DETECTION",
       "meta": "Featured / AI4ALL Ignite",
@@ -60,7 +60,7 @@
     {
       "category": "data",
       "featured": false,
-      "image": "assets/mtr.png",
+      "image": "assets/mtr_bwbw.png",
       "imageAlt": "NAGPRA project icon",
       "visualLabel": "REPATRIATION / INFORMATION SYSTEMS / SOVEREIGNTY",
       "meta": "Data systems",
@@ -94,7 +94,7 @@
     {
       "category": "web",
       "featured": false,
-      "image": "assets/nipslip.png",
+      "image": "assets/nipslip_bw.png",
       "imageAlt": "Nip Slip Catnip project icon",
       "visualLabel": "FRONTEND DEVELOPMENT / RESPONSIVE DESIGN / USER EXPERIENCE",
       "meta": "Web design",
